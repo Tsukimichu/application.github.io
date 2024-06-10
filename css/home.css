@@ -118,11 +118,12 @@ body {
   position: relative;
   width: 70.625rem;
   height: 48.4rem;
-  background: url(/images/bg.png) no-repeat center;
+  background: url(../images/bg.png) no-repeat center;
   background-size: cover;
   z-index: 1;
-  border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+  border-radius: 1.25rem;
   overflow: visible auto;
+  padding: 20px; /* Added some padding for better readability */
 }
 
 .sub-body h1 {
@@ -210,4 +211,13 @@ body {
   .sub-body h2 {
       font-size: 1.5rem;
   }
+}
+
+.offer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.offer ul li {
+  margin-bottom: 10px;
 }

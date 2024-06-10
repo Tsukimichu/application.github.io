@@ -118,11 +118,16 @@
     position: relative;
     width: 70.625rem;
     height: 37.5rem;
-    background: url(/images/bg.png) no-repeat center;
+    background: url(../images/bg.png) no-repeat center;
     background-size: cover;
     z-index: 1;
     border-radius: 1.25rem 1.25rem 0 0;
     overflow: visible auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
   }
   
   .header {
@@ -220,3 +225,19 @@
     }
   }
   
+
+  .header2 {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .sub-header2 {
+    display: block;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .sub-header2 p {
+    margin: 0;
+  }
